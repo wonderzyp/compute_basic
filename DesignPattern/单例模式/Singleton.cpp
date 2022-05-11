@@ -6,6 +6,8 @@ class Singleton
 {
 public:
   Singleton(const Singleton&) = delete;  // 不允许拷贝
+  void operator=(const Singleton&) = delete;
+  
   static Singleton& GetInstance(){
     return m_Instance;
   }
