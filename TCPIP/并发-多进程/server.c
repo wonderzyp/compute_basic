@@ -16,8 +16,6 @@
 #endif
 #include <signal.h>
 
-
-
 #define BUF_SIZE 30
 void error_handling(char *message);
 void read_childproc(int sig);

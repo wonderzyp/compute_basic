@@ -1,5 +1,4 @@
 // 通用client
-// 客户端没有改变
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
