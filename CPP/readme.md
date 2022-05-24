@@ -26,7 +26,7 @@ Effective C++
 
 #### 常量性质
 1. 使用`inline template function`代替宏函数
-2. 
+2. `static_cast`搭配`const_cast`实现代码复用
 
 
 

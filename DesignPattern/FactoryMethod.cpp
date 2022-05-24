@@ -91,8 +91,6 @@ void showYourself(const AbstractFactory& factory){
   factory.DIYfunc();
 }
 
-
-
 int main(){
   LOG("YellowHuman-----------------");
   AbstractFactory* yellowFactory = new YelloFactory();
